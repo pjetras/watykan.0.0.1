@@ -7,9 +7,9 @@ papaj = int(input("Wpisz liczbe papaja:"))
 
 if papaj == 2137:
     urllib.request.urlretrieve(
-            'https://www.wykop.pl/cdn/c3201142/comment_1588762974PT17UhAFoREy0oxY3JSkSD,w400.jpg',
-            "w400.jpg")
-    img = Image.open("w400.jpg")
+            'https://static.wikia.nocookie.net/leagueoflegends/images/c/c9/Yasuo_Render.png/revision/latest/scale-to-width-down/229?cb=20200514001932',
+            "Yasuo_Render.png")
+    img = Image.open("Yasuo_Render.png")
     while True:
         img.show()
 
