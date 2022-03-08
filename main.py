@@ -5,7 +5,7 @@ import keyboard
 
 papaj = (input("Wpisz liczbe yasuo:"))
 
-if papaj == "010":
+if papaj == "0/10":
     urllib.request.urlretrieve(
             'https://static.wikia.nocookie.net/leagueoflegends/images/c/c9/Yasuo_Render.png/revision/latest/scale-to-width-down/229?cb=20200514001932',
             "Yasuo_Render.png")
